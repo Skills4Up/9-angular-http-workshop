@@ -1,0 +1,73 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop Dell Inspiron 15",
+      "description": "Portátil de alto rendimiento con procesador Intel Core i7, 16GB RAM y SSD de 512GB.",
+      "price": 3500,
+      "stock": 12,
+      "category": "Tecnología"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone Samsung Galaxy S24",
+      "description": "Pantalla AMOLED de 6.5\", 128GB de almacenamiento, cámara triple de 50MP.",
+      "price": 2800,
+      "stock": 25,
+      "category": "Tecnología"
+    },
+    {
+      "id": 3,
+      "name": "Audífonos Bluetooth Sony WH-1000XM4",
+      "description": "Cancelación activa de ruido, hasta 30 horas de batería, carga rápida.",
+      "price": 950,
+      "stock": 8,
+      "category": "Accesorios"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Ana Torres",
+      "email": "ana.torres@email.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Carlos Pérez",
+      "email": "carlos.perez@email.com",
+      "role": "user"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "date": "2025-05-28",
+      "total": 3750,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 3500
+        },
+        {
+          "productId": 3,
+          "quantity": 1,
+          "price": 950
+        }
+      ],
+      "status": "enviado"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Tecnología"
+    },
+    {
+      "id": 2,
+      "name": "Accesorios"
+    }
+  ]
+}

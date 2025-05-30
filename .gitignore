@@ -1,0 +1,13 @@
+node_modules/
+1-*/*.md
+!1-*/README.md
+2-*/*.md
+!2-*/README.md
+3-*/*.md
+!3-*/README.md
+4-*/*.md
+!4-*/README.md
+5-*/*.md
+!5-*/README.md
+
+.DS_Store
